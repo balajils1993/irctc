@@ -13,7 +13,7 @@ pipeline {
          }
          
          stage('SonarQube analysis') {
-            enviroment {
+            environment {
                 scannerHome = tool 'saidemy-sonar-scanner' 
             }
 
